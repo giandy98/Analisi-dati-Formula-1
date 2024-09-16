@@ -17,6 +17,7 @@ Infine, la classifica sarà salvata in un file di testo (Drivers_Standings_2008.
 Drivers Standings 2008 Formula 1
 NomePilota1: PunteggioTotale
 NomePilota2: PunteggioTotale
+
 3. Funzione per la classifica dei costruttori
 La terza funzione crea un dizionario con i nomi dei team/costruttori come chiavi e il loro punteggio totale come valori. Il punteggio di ciascun team è la somma dei punti ottenuti dai piloti che hanno gareggiato per quel costruttore.
 
