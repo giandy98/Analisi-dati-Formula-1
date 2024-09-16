@@ -1,24 +1,18 @@
-# Analisi-dati-Formula-1
-Analisi dei risultati del Campionato Mondiale di Formula 1 della stagione 2008
+# Data-Analysis-Formula-1
+Analysis of the Formula 1 World Championship results of the 2008 season
 
+The project involves the implementation of the following functions:
 
-Il progetto prevede l'implementazione delle seguenti funzionalità:
+1. Function for the analysis of individual driver performances 
+The first function receives as input the name of a driver and returns a list containing three key pieces of information: - The total points accumulated by the driver during the championship. - The number of wins, i.e. how many times the driver came first in a Grand Prix. - The number of podiums, i.e. how many times the driver finished in the top three.
+This function will be useful to analyse the individual performances of the drivers and get a clear view of their positions during the season.
 
-1. Funzione per l'analisi delle performance individuali dei piloti
-La prima funzione riceve in input il nome di un pilota e restituisce una lista contenente tre informazioni chiave: - Il totale dei punti accumulati dal pilota durante il campionato. - Il numero di vittorie, ovvero quante volte il pilota è arrivato primo in un Gran Premio. - Il numero di podi, ovvero quante volte il pilota è arrivato tra i primi tre classificati.
+2. Function for Creating the Final Ranking of Drivers 
+The second function generates a dictionary containing the names of the drivers as keys and their total score as values. The dictionary is then used to create an overall ranking of the drivers.
+Finally, the ranking will be saved in a text file (Drivers_Standings_2008.txt) with the following format:
 
-Questa funzione sarà utile per analizzare le performance individuali dei piloti e avere una chiara visione delle loro posizioni nel corso della stagione.
+Drivers Standings 2008 Formula 1 DriverName1: ScoreTotal DriverName2: ScoreTotal
 
-2. Funzione per la creazione della classifica finale dei piloti
-La seconda funzione genera un dizionario contenente i nomi dei piloti come chiavi e il loro punteggio totale come valori. Il dizionario viene poi utilizzato per creare una classifica generale dei piloti.
-
-Infine, la classifica sarà salvata in un file di testo (Drivers_Standings_2008.txt) con il seguente formato:
-
-Drivers Standings 2008 Formula 1
-NomePilota1: PunteggioTotale
-NomePilota2: PunteggioTotale
-
-3. Funzione per la classifica dei costruttori
-La terza funzione crea un dizionario con i nomi dei team/costruttori come chiavi e il loro punteggio totale come valori. Il punteggio di ciascun team è la somma dei punti ottenuti dai piloti che hanno gareggiato per quel costruttore.
-
-Questa funzione utilizza i dati precedentemente generati per i piloti e calcola la classifica dei costruttori. Anche questa informazione è essenziale per avere una visione chiara delle prestazioni dei team durante l'anno.
+3. Constructor Ranking Function 
+The third function creates a dictionary with the team/constructor names as keys and their total score as values. Each team's score is the sum of the points obtained by the drivers who competed for that manufacturer.
+This function uses the data previously generated for the drivers and calculates the manufacturers' ranking. This information is also essential for a clear view of the teams' performance during the year.
