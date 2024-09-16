@@ -1,5 +1,5 @@
 # Analisi-dati-Formula-1
-Analizzare i risultati del Campionato Mondiale di Formula 1 della stagione 2008
+Analisi dei risultati del Campionato Mondiale di Formula 1 della stagione 2008
 
 
 Il progetto prevede l'implementazione delle seguenti funzionalità:
